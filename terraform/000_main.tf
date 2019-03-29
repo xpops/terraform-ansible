@@ -13,7 +13,5 @@ terraform {
     bucket               = "xpops-lab"
     workspace_key_prefix = "terraform-states"
     key                  = "terraform-xpops-lab.tfstate"
-
-    dynamodb_table = "terraform-lock"
   }
 }
