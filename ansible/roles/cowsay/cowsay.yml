@@ -1,0 +1,6 @@
+- name: "Docker"
+
+  roles:
+    - roles/docker
+
+  become: true
