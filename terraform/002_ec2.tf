@@ -3,7 +3,6 @@ resource "aws_security_group" "ec2_instance_sg" {
   description = "${local.project_name} instance security group."
 }
 
-
 resource "aws_security_group_rule" "ec2_instance_sg_rule_ingress" {
   type              = "ingress"
   from_port         = 22
