@@ -1,0 +1,6 @@
+- hosts: webservice
+
+  roles:
+    - cowsay
+
+  become: true

@@ -1,6 +1,6 @@
-- name: "Docker"
+- name: "Cowsay"
 
   roles:
-    - roles/docker
+    - roles/cowsay
 
   become: true
